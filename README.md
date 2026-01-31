@@ -8,3 +8,12 @@ Sistemi di gioco
 - __Estrazione di carte dal mazzo__: Estrazione casuale di carte dal mazzo del giocatore, sistema che gestisce il mazzo e le carte rimanenti
 - __Display della mano__: le carte sono ggetti 3D che si posizonano sul palco per essere giocate
 - __Sistema a turni__: il giocatore e l'avversario agiscono a turni alterni, l'avversario e' un personaggio in 3D
+
+- Loop di gioco:
+ 1. recupero mana e carte
+ 2. Efetto del turno dettato dal boss
+ 3. Creazione coda delle carte
+ 4. Calcolo effetti delle carte e danni
+ 
+ Win condition: boss arriva a 0 di vita
+ Loss condition: all'inizio del 4o turno
